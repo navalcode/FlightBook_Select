@@ -1,18 +1,26 @@
-# Flight seat selection
+# Flight seat selection study
 
 [English](#overview) · [Español](#resumen)
 
 ## Overview
 
-Flutter seat-selection interface exercise.
+Flutter interface exercise centered on a seat model and a seat-selection page. It is a UI study; it does not establish an airline booking or payment integration.
 
-An earlier learning exercise. The source is preserved with its original toolchain; compatibility with current versions has not been revalidated.
+Check pubspec.yaml for the historical Dart constraint before choosing an SDK. Selection behavior and device compatibility have not been revalidated.
+
+- [`main.dart`](lib/main.dart)
+- [`seat_model.dart`](lib/models/seat_model.dart)
+- [`seat_selection_page.dart`](lib/pages/seat_selection_page.dart)
+
+[pubspec.yaml](pubspec.yaml): The package file records the SDK constraint, dependencies and assets.
 
 ## Resumen
 
-Ejercicio Flutter de interfaz de selección de asientos.
+Ejercicio de interfaz Flutter organizado alrededor de un modelo de asiento y una pantalla de selección. Es un estudio de UI; no acredita integración con reservas de aerolínea o pagos.
 
-Ejercicio de una etapa anterior de aprendizaje. Se conserva con sus herramientas originales; no se ha vuelto a validar con versiones actuales.
+Consulta la restricción histórica de Dart en pubspec.yaml antes de elegir SDK. No se han vuelto a validar el comportamiento de selección ni la compatibilidad con dispositivos.
+
+Consulta los archivos enlazados arriba para seguir la implementación. [pubspec.yaml](pubspec.yaml): El archivo del paquete recoge SDK, dependencias y recursos.
 
 <details>
 <summary>Original documentation and credits · Documentación y créditos originales</summary>
